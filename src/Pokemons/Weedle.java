@@ -2,9 +2,9 @@ package Pokemons;
 
 import java.util.ArrayList;
 
-public class Bulbasaur extends Pokemon {
+public class Weedle extends Pokemon {
 
-    public Bulbasaur(Integer nivel) {
+    public Weedle(Integer nivel) {
 
         ArrayList<Double> vidasEvolucoes = new ArrayList<Double>();
         ArrayList<ArrayList<Integer>> danosAtaques = new ArrayList<ArrayList<Integer>>();    
@@ -13,9 +13,9 @@ public class Bulbasaur extends Pokemon {
         ArrayList<String> ataques = new ArrayList<String>();
         ArrayList<String> nomes = new ArrayList<String>();
 
+        vidasEvolucoes.add(100.0);
+        vidasEvolucoes.add(200.0);
         vidasEvolucoes.add(300.0);
-        vidasEvolucoes.add(400.0);
-        vidasEvolucoes.add(500.0);
         
         danos.add(30);
         danos.add(40);
@@ -39,31 +39,31 @@ public class Bulbasaur extends Pokemon {
 
         danosAtaques.add(danos);
 
-        ataques.add("Tackle");
-        ataques.add("Growl");
-        ataques.add("Leech Seed");
+        ataques.add("Bug Bite");
+        ataques.add("Poison Sting");
+        ataques.add("Struggle");
 
         nomesAtaques.add(ataques);
 
         ataques.clear();
 
-        ataques.add("Vine Whip");
-        ataques.add("Poison Powder");
-        ataques.add("Sleep Powder");
+        ataques.add("Bug Bite");
+        ataques.add("Poison Sting");
+        ataques.add("Struggle");
 
         nomesAtaques.add(ataques);
 
         ataques.clear();
 
-        ataques.add("Take Down");
-        ataques.add("Razor Lead");
-        ataques.add("Sweet Scent");
+        ataques.add("Bug Bite");
+        ataques.add("Poison Sting");
+        ataques.add("Struggle");
 
         nomesAtaques.add(ataques);
 
-        nomes.add("Bulbasaur");
-        nomes.add("Ivysaur");
-        nomes.add("Venusaur");
+        nomes.add("Weedle");
+        nomes.add("Kakuna");
+        nomes.add("Beedrill");
         
         this.setVidasEvolucoes(vidasEvolucoes);
         this.setDanosAtaquesEvolucoes(danosAtaques);

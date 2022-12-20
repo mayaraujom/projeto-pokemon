@@ -2,9 +2,9 @@ package Pokemons;
 
 import java.util.ArrayList;
 
-public class Bulbasaur extends Pokemon {
+public class Caterpie extends Pokemon {
 
-    public Bulbasaur(Integer nivel) {
+    public Caterpie(Integer nivel) {
 
         ArrayList<Double> vidasEvolucoes = new ArrayList<Double>();
         ArrayList<ArrayList<Integer>> danosAtaques = new ArrayList<ArrayList<Integer>>();    
@@ -13,9 +13,9 @@ public class Bulbasaur extends Pokemon {
         ArrayList<String> ataques = new ArrayList<String>();
         ArrayList<String> nomes = new ArrayList<String>();
 
+        vidasEvolucoes.add(100.0);
+        vidasEvolucoes.add(200.0);
         vidasEvolucoes.add(300.0);
-        vidasEvolucoes.add(400.0);
-        vidasEvolucoes.add(500.0);
         
         danos.add(30);
         danos.add(40);
@@ -39,31 +39,31 @@ public class Bulbasaur extends Pokemon {
 
         danosAtaques.add(danos);
 
-        ataques.add("Tackle");
-        ataques.add("Growl");
-        ataques.add("Leech Seed");
+        ataques.add("Bug Bite");
+        ataques.add("Confusion");
+        ataques.add("Signal Beam");
 
         nomesAtaques.add(ataques);
 
         ataques.clear();
 
-        ataques.add("Vine Whip");
-        ataques.add("Poison Powder");
-        ataques.add("Sleep Powder");
+        ataques.add("Psychic");
+        ataques.add("Bug Buzz");
+        ataques.add("Bug Bite");
 
         nomesAtaques.add(ataques);
 
         ataques.clear();
 
-        ataques.add("Take Down");
-        ataques.add("Razor Lead");
-        ataques.add("Sweet Scent");
+        ataques.add("Confusion");
+        ataques.add("Signal Beam");
+        ataques.add("Psychic");
 
         nomesAtaques.add(ataques);
 
-        nomes.add("Bulbasaur");
-        nomes.add("Ivysaur");
-        nomes.add("Venusaur");
+        nomes.add("Caterpie");
+        nomes.add("Metapod");
+        nomes.add("Butterfree");
         
         this.setVidasEvolucoes(vidasEvolucoes);
         this.setDanosAtaquesEvolucoes(danosAtaques);
